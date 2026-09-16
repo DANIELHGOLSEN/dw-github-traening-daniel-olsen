@@ -1,4 +1,36 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
+}
+
+header {
+    padding: 2em 0em 2em 0em;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    padding-bottom: 4em;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+}
+
+footer ul li {
+    padding: 0em 1em 0 1em;
 }
